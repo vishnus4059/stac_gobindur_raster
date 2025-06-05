@@ -1,0 +1,60 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "gobindpur-lulc",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          86.20709573511512,
+          22.43039365529398
+        ],
+        [
+          86.20709573511512,
+          22.771753463259397
+        ],
+        [
+          85.82082016294372,
+          22.771753463259397
+        ],
+        [
+          85.82082016294372,
+          22.43039365529398
+        ],
+        [
+          86.20709573511512,
+          22.43039365529398
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    85.82082016294372,
+    22.43039365529398,
+    86.20709573511512,
+    22.771753463259397
+  ],
+  "properties": {
+    "datetime": "2025-06-05T05:06:14.006986Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "raster-data": {
+      "href": "../../data/gobindpur_lulc_2023_2024.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+    }
+  }
+}
