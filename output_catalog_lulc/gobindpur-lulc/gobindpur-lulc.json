@@ -37,7 +37,7 @@
     22.771753463259397
   ],
   "properties": {
-    "datetime": "2025-06-05T05:06:14.006986Z"
+    "datetime": "2025-06-11T09:56:00.111610Z"
   },
   "links": [
     {
@@ -53,8 +53,20 @@
   ],
   "assets": {
     "raster-data": {
-      "href": "../../data/gobindpur_lulc_2023_2024.tif",
-      "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+      "href": "data/gobindpur_lulc_2023_2024.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "LULC Raster (GeoTIFF)",
+      "roles": [
+        "data"
+      ]
+    },
+    "qgis-style": {
+      "href": "data/style_file.qml.qml",
+      "type": "application/xml",
+      "title": "QGIS Style (QML)",
+      "roles": [
+        "style"
+      ]
     }
   }
 }

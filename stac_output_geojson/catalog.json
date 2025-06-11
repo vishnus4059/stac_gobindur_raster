@@ -1,0 +1,23 @@
+{
+  "type": "Catalog",
+  "id": "gobindpur-catalog",
+  "stac_version": "1.1.0",
+  "description": "STAC catalog for gobindpur_swb3 GeoJSON layer",
+  "links": [
+    {
+      "rel": "root",
+      "href": "/home/vishnu/corestack_STAC/stac_output_geojson/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "/home/vishnu/corestack_STAC/stac_output_geojson/gobindpur_swb3/gobindpur_swb3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "self",
+      "href": "/home/vishnu/corestack_STAC/stac_output_geojson/catalog.json",
+      "type": "application/json"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "Catalog",
+  "id": "lulc-catalog",
+  "stac_version": "1.1.0",
+  "description": "STAC Catalog for LULC GeoJSON",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://stactestbucket.s3-website.ap-south-1.amazonaws.com/lulc-collection/collection.json",
+      "type": "application/json"
+      "title": "LULC Collection"
+    }
+  ]
+}
